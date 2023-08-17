@@ -16,14 +16,14 @@ html, body {
     align-items: center;
 }
 
-.logo {
+.header-logo {
     font-size: 24px;
     font-weight: bolder;
     color: #F9FAF8;
 }
 
 
-.links {
+.header-links {
     display: flex;
     gap: 30px;
     margin: 0px;
@@ -34,12 +34,44 @@ html, body {
 
 .title {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 75px;
+    margin: 0;
+    gap: 50px;
 }
 
-.content {
-    text-align: center;
+.title-content {
+
+    text-align: left;
     max-width: 400px;
+
 }
+
+.title-main {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 700;
+}
+
+.title-secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 6px;
+    border: 0px;
+}
+
+
 
 
 
