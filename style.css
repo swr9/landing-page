@@ -5,27 +5,27 @@ html, body {
 
 }
 
-.nav-header-container {
+.header-container {
     background-color: #1F2937;
 }
 
-/* navigation bar */
+/* navigation menu */
 
-.navigation-bar {
+.navigation {
     display: flex;
     justify-content: space-around;
     padding: 18px;
     align-items: center;
 }
 
-.logo {
+.nav-logo {
     font-size: 24px;
     font-weight: bolder;
     color: #F9FAF8;
 }
 
 
-.links {
+.nav-links {
     display: flex;
     gap: 30px;
     margin: 0px;
@@ -36,7 +36,7 @@ html, body {
 
 /* header */
 
-.header {
+.cta-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -46,26 +46,26 @@ html, body {
     gap: 50px;
 }
 
-.header-content {
+.cta {
 
     text-align: left;
     max-width: 400px;
 }
 
-.header-main {
+.cta-title {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 700;
 }
 
-.header-secondary {
+.cta-text {
     font-size: 18px;
     color: #E5E7EB;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
-button {
+.cta-button {
     background-color: #3882f6;
     color: white;
     padding: 5px;
@@ -75,7 +75,7 @@ button {
     border: 0px;
 }
 
-.header .lucy-picture {
+.cta-wrapper .lucy-picture {
     max-width: 400px;
 }
 
@@ -89,7 +89,7 @@ button {
     font-size: 36px;
     font-weight: 700;
     color: #1F2937;
-
+    text-align: center;
 }
 
 .info-container .lucy-picture {
