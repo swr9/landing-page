@@ -40,6 +40,7 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     padding: 75px;
     margin: 0;
     gap: 50px;
@@ -102,6 +103,7 @@ button {
     display: flex;
     justify-content: center;
     gap: 100px;
+    flex-wrap: wrap;
 }
 
 .info {
