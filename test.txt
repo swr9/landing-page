@@ -1,0 +1,13 @@
+                
+  how do i make prettier format a line like this:              
+                
+<div class="cta-text">My cat Lucy is very evil, she bites me even though I pet her and feed her
+ everyday. She is very unappreciative, which is why I am trying to sell her</div>
+
+  and not like this:
+
+<div class="cta-text">
+	My cat Lucy is very evil, she bites me even though I pet
+	her and feed her everyday. She is very unappreciative,
+	which is why I am trying to sell her
+</div>
