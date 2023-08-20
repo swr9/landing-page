@@ -134,5 +134,60 @@ body {
 .quote-credit {
   display: flex;
   justify-content: end;
-  margin-top: 30px;
+  padding-top: 30px;
+  font-weight: bold;
+}
+
+/* CTA */
+
+.cta-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+}
+
+.cta {
+  color: #e5e7eb;
+  background-color: #3882f6;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 10px;
+  width: 700px;
+  min-width: 500px;
+  height: 150px;
+}
+
+.cta-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.cta-title {
+  font-size: x-large;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.cta-button {
+  flex: none;
+  color: #e5e7eb;
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 6px;
+  border: 2px solid #e5e7eb;
+  background-color: #3882f6;
+}
+
+/* credit */
+
+.copyright {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
 }
