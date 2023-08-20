@@ -1,5 +1,5 @@
                 
-  how do i make prettier format a line like this:              
+  how do iI make the VSC extension prettier format a line like this:              
                 
 <div class="cta-text">My cat Lucy is very evil, she bites me even though I pet her and feed her
  everyday. She is very unappreciative, which is why I am trying to sell her</div>
